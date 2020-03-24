@@ -1,7 +1,7 @@
 ---
 title: "R Data Analysis"
 author: "Cory DuPai"
-date: "10/30/2019"
+date: "3/24/2020"
 output: html_document
   
 ---
@@ -37,7 +37,8 @@ Packages provide a lot of the functionality that makes R so useful.
 I've already installed all of the packages necessary to run this tutorial
 but if you need to install them on your computer, just type
 ```{r install_sample, eval=FALSE}
-install.packages("PACKAGE_NAME",dependencies = TRUE)
+
+#install.packages("PACKAGE_NAME",dependencies = TRUE)
 ```
 If asked to compile packages, try the "Yes" option and, if it fails, redo with
 the "no" option.
@@ -62,7 +63,6 @@ library(tidyverse)
 library(ggrepel)
 
 ```
-
 
 
 ## Data In and Out {.tabset}
@@ -100,6 +100,12 @@ readr::write_csv(OCH_tibble,"OCH.csv")
 
 ```
 
+### Loading files with RStudio
+
+Lastly, you can load files with RStudio. To do this, simply
+navigate to the "Files" tab in the bottom right corner, find your file,
+click on it and select "Import Dataset." To save, use one of the write_ 
+functions mentioned above
 
 ## Dplyr {.tabset}
 
@@ -159,7 +165,7 @@ ggplot2::ggplot(Europe_1992,aes(x=lifeExp,y=gdpPercap,fill=continent),colour="bl
 You may also want to filter to compare two countries
 ```{r filter2}
 Alb_France<-Gap_minder%>%
-  filter( (country=="Albania"|country=="France") & year==1992)
+  filter( (country=="Albania" | country=="France") & year==1992)
 
 ggplot(data=Alb_France,aes(x=lifeExp,y=gdpPercap,fill=continent),colour="Blue")+
   geom_point()+
@@ -191,7 +197,7 @@ Gap_minder%>%
   mutate(gdptotal=gdpPercap*pop/(10^9))
 
 Gap_minder%>%
-  mutate(era=dplyr::if_else(year<=2000,"20th","21st"))
+  mutate(era=dplyr::if_else(year<2000,"20th","21st"))
 
 Decades<-Gap_minder%>%
   mutate(era=dplyr::case_when(year<1960 ~ "50s",
@@ -442,6 +448,8 @@ I commonly use in my workflow:
 - **data.table** - Load and manipulate large data files much faster than tidyverse
 - **broom** - Cleanup output from various r-functions (t.test, linear model)
 - **Reticulate** - Integrate Python code with R code!
+- **xlsx** - Load data from Excel files
+- **readxl** - Load data from Excel files
 
 ### Tutorials
 
