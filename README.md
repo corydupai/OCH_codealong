@@ -1,5 +1,5 @@
 # OCH_codealong
-Code for OCH Code_along Oct 30 2019
+Code for OCH Code_along March 25 2020
 
 OCH_master.RMD serves as a code-along intro to
 basic R functionality and the tidyverse with a focus
@@ -10,8 +10,10 @@ your local machine, open OCH_master.RMD in RStudio,
 and make sure you have the tidyverse and ggrepel packages
 installed.
 
-Go here for Server version: https://rstudio.cloud/spaces/31493/join?access_code=0HLHobM6AsbSZBJRs06NxjddqjCwRTVSWVi31%2FYy 
+Go here for Server version: https://rstudio.cloud/spaces/31493/join?access_code=0HLHobM6AsbSZBJRs06NxjddqjCwRTVSWVi31%2FYy
+
 Click codealong after joining the space to see the lessons with all files ready to go under Data_wrangle.
 
-If you just want the sparknotes version, download OCH_master.html and click through for
-a quick overview
+If you just want the sparknotes version, download OCH_master.html and click through for a quick overview.
+
+Questions/comments? Shoot me an email at coryddubois@gmail.com
