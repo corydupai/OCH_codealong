@@ -461,3 +461,4 @@ Here are some other links/tutorials that might be helpful
 - [R for Data Science](https://r4ds.had.co.nz/)
 - [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)
 - [Google "package_name vignette" for help with many packages](https://google.com)
+- [Next week's topic: intro to ggplot](https://github.com/clairemcwhite/ggplot_intro)

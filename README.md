@@ -17,3 +17,5 @@ Click codealong after joining the space to see the lessons with all files ready 
 If you just want the sparknotes version, download OCH_master.html and click through for a quick overview.
 
 Questions/comments? Shoot me an email at coryddubois@gmail.com
+
+Next week we will do a intro to ggplot based on this git repository: https://github.com/clairemcwhite/ggplot_intro  
