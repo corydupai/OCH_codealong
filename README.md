@@ -8,14 +8,4 @@ on bioinformatics/computational biology.
 To get started, download or clone the repository on
 your local machine, open OCH_master.RMD in RStudio,
 and make sure you have the tidyverse and ggrepel packages
-installed.
-
-Go here for Server version: https://rstudio.cloud/spaces/31493/join?access_code=0HLHobM6AsbSZBJRs06NxjddqjCwRTVSWVi31%2FYy
-
-Click codealong after joining the space to see the lessons with all files ready to go under Data_wrangle.
-
-If you just want the sparknotes version, download OCH_master.html and click through for a quick overview.
-
-Questions/comments? Shoot me an email at coryddubois@gmail.com
-
-Next week we will do a intro to ggplot based on this git repository: https://github.com/clairemcwhite/ggplot_intro  
+installed. 
